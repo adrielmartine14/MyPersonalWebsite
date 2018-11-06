@@ -1,0 +1,45 @@
+h1, h4, p, li{
+    font-family: Roboto-Condensed;
+    color: black;
+}
+body{
+    background: linear-gradient(to bottom, rgb(231, 240, 245), rgb(60, 79, 210));
+}
+nav{
+    border-radius: 40px;
+    margin: 15px;
+    width: 15%;
+    text-align: center;
+}
+li{
+    text-decoration-color: white;
+    list-style: none;
+}
+a:hover{
+    color: black;
+}
+a{
+    color: white;
+}
+footer{
+    text-align: center;
+    font-size: 0.70em;
+    padding: 10px;
+    font-style: italic;
+}
+picture{
+    border-bottom: 5px;
+    margin-bottom: 5px;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(0, 0, 0);
+    margin: auto;
+
+}
+.text-center{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+element.style{
+    margin-top: 5px;
+}
