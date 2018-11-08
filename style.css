@@ -2,8 +2,12 @@ h1, h4, p, li{
     font-family: Roboto-Condensed;
     color: black;
 }
+p{
+    margin-right: 700px;
+    font-size: large;
+}
 body{
-    background: linear-gradient(to bottom, rgb(231, 240, 245), rgb(60, 79, 210));
+    background: linear-gradient(to bottom, rgb(231, 240, 245), rgb(0,191,255));
 }
 nav{
     border-radius: 40px;
@@ -15,15 +19,18 @@ li{
     text-decoration-color: white;
     list-style: none;
 }
+ul{
+    padding: 0px;
+}
 a:hover{
     color: black;
 }
 a{
-    color: white;
+    color: black;
 }
 footer{
     text-align: center;
-    font-size: 0.70em;
+    font-size: 1em;
     padding: 10px;
     font-style: italic;
 }
@@ -32,9 +39,11 @@ picture{
     margin-bottom: 5px;
 }
 .navbar-light .navbar-nav .nav-link {
+    background-color: transparent;
     color: rgb(0, 0, 0);
     margin: auto;
-
+    font-weight: bold;
+    font-size: large;
 }
 .text-center{
     padding-top: 5px;
@@ -42,4 +51,8 @@ picture{
 }
 element.style{
     margin-top: 5px;
+    background-color: transparent;
+}
+.bg-light {
+    background-color: transparent!important;
 }
