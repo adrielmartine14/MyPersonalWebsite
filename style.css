@@ -1,6 +1,9 @@
-h1, h4, p, li{
+h1, h3, h4, p, li{
     font-family: Roboto-Condensed;
     color: black;
+}
+h1, h3{
+    text-align: center;
 }
 p{
     margin-right: 700px;
